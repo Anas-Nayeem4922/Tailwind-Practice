@@ -4,10 +4,10 @@ import Screen2 from "./pages/Screen2"
 function App() {
 
   return (
-    <>
+    <div className="flex justify-evenly">
       <Screen1/>
-      {/* <Screen2/> */}
-    </>
+      <Screen2/>
+    </div>
   )
 }
 

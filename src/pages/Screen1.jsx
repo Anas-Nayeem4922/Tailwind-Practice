@@ -7,7 +7,7 @@ import Button from '../components/Button'
 const Screen1 = () => {
     const [active, setActive] = useState(false);
     return (
-        <div className='bg-[#002a5a] h-screen flex items-center flex-col'>
+        <div className='bg-[#002a5a] h-screen flex items-center flex-col w-full'>
             <Logo className=''/>
             <Content>Verify your age</Content>
             <Input placeholder={"Your birth year"} setActive={setActive}/>

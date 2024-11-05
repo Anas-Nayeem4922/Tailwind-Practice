@@ -7,7 +7,7 @@ import Button from '../components/Button'
 const Screen2 = () => {
     const [active, setActive] = useState(false);
     return (
-        <div className='bg-[#002a5a] h-screen flex items-center flex-col'>
+        <div className='bg-[#002a5a] h-screen flex items-center flex-col w-full'>
             <Logo className=''/>
             <Content>Let's get started</Content>
             <Input placeholder={"E-mail"} type={"email"} setActive={setActive} desc={false}/>
